@@ -1,6 +1,6 @@
 <?php
 $projectName = 'Základy programování';
-
+$counter = 123654789
 
 
 
@@ -62,7 +62,9 @@ $projectName = 'Základy programování';
 
       <div class="starter-template">
         <h1>nadpis</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">Use this document as a way to quickly start any new project.<br>
+          All you get is this text and a mostly barebones HTML document.</p>
+        <p>Počítadlo přístupů: <?php echo $counter; ?></p>
       </div>
 
     </main><!-- /.container -->
