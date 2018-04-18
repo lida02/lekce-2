@@ -2,7 +2,7 @@
 $projectName = 'Základy programování';
 $counter = 123654789;
 $numbers = [0, 1, 1, 2, 3, 5, 8];
-
+$pageName = 'Home';
 
 ?>
 <!doctype html>
@@ -26,7 +26,7 @@ $numbers = [0, 1, 1, 2, 3, 5, 8];
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#"><?php echo $projectName; ?></a>
+      <a class="navbar-brand" href="#"><?php echo $projectName . " - " . $pageName; ?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
