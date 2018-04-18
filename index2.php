@@ -1,7 +1,7 @@
 <?php
 $projectName = 'Základy programování';
-$counter = 123654789
-
+$counter = 123654789;
+$numbers = [0, 1, 1, 2, 3, 5, 8];
 
 
 ?>
@@ -65,6 +65,9 @@ $counter = 123654789
         <p class="lead">Use this document as a way to quickly start any new project.<br>
           All you get is this text and a mostly barebones HTML document.</p>
         <p>Počítadlo přístupů: <?php echo $counter; ?></p>
+        <p>
+          <?php var_dump($numbers); ?>
+        </p>
       </div>
 
     </main><!-- /.container -->
