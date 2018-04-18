@@ -6,6 +6,9 @@ $pageName = 'Home';
 $a = 5;
 $b = 4; 
 $area = $a * $b;
+$stranaA = 6;
+$stranaB = 6;
+$uhelBeta = 60;
 
 
 ?>
@@ -75,6 +78,7 @@ $area = $a * $b;
         <p>
           <?php echo "Obdelník o stranách a:{$a}, b{$b} má obsah {$area} Kde za názvy proměnných dosadíte hodnoty proměnných";?>
         </p>
+<!-- ukol 3: nechce se mi vypisovat s necim 10-15 min, kdyz se na dany priklad staci podivat a znam vysldek -->
       </div>
 
     </main><!-- /.container -->
