@@ -3,6 +3,10 @@ $projectName = 'Základy programování';
 $counter = 123654789;
 $numbers = [0, 1, 1, 2, 3, 5, 8];
 $pageName = 'Home';
+$a = 5;
+$b = 4; 
+$area = $a * $b;
+
 
 ?>
 <!doctype html>
@@ -67,6 +71,9 @@ $pageName = 'Home';
         <p>Počítadlo přístupů: <?php echo $counter; ?></p>
         <p>
           <?php var_dump($numbers); ?>
+        </p>
+        <p>
+          <?php echo "Obdelník o stranách a:{$a}, b{$b} má obsah {$area} Kde za názvy proměnných dosadíte hodnoty proměnných";?>
         </p>
       </div>
 
