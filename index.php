@@ -55,10 +55,76 @@
 
       <div class="starter-template">
         <h1>
+ <?php
+  
+  $text = 'Ahoj';
+  $text2 = '...';
+  echo $text . " " . $text2;
+ 
+  
+  //echo "$text $text2";
+  //echo $text . ' ' . $text2;
+  //- lepsi/jednodussi 2 zpusoby + to viditelny nad tim 
+ 
+?>
+          <br/>
 <?php
-  echo 'Centrální obrazovka všehomíra';
+  $boolean = false;
+  var_dump($boolean);
+?>
+          <br/>
+<?php
+  $cislo = 5;
+  $cislo = $cislo + 5;
+  var_dump($cislo);
+?>
+          <br/>
+<?php
+  $descis = 3.14;
+  var_dump($descis);
+  echo '<br/>';
+  
+  $pole1 = [2, '.', 'lekce'];
+  var_dump($pole1);
+  echo'<br/>';
+  // novy radek, bez zbytecnych pisnem navic
+  // komentar na 1 radek '//' a vic /* a */
+ 
+ $pole2 = ['name'=>'Lída', 'surname'=>'Křemenová'];
+          echo $pole2['name'] . ' ' . $pole2['surname'];
+          
+   echo'<br/>';
+          
+$pole3 = ['závodníci' => ['Adam', 'Eva', 'Jakub'], 'pořadí' => ['2', '3', '1']];
 
 ?>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">závodníci</th>
+      <th scope="col">pořadí</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><?php echo $pole3['závodníci'][0]; ?></td>
+      <td><?php echo $pole3['pořadí'][0]; ?></td>
+    <tr>  
+      <td><?php echo $pole3['závodníci'][1]; ?></td>
+      <td><?php echo $pole3['pořadí'][1]; ?></td>
+    <tr>  
+      <td><?php echo $pole3['závodníci'][2]; ?></td>
+      <td><?php echo $pole3['pořadí'][2]; ?></td>
+    </tr>
+    <tr>
+      
+      
+            
+    </tr>
+   </tbody>
+</table>
+          
         </h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
